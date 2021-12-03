@@ -96,3 +96,127 @@ header {
   animation: moveInTop 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
 }
+/* josh section style  */
+
+
+/* utility classes */
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container {
+    width: 100%;
+    padding: 1em;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* contact page classes  */
+
+.input-pad {
+    padding: 0.5em;
+}
+
+
+
+/* end of josh style section  */
+
+
+
+/* pat css*/
+
+footer {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+    background-color: #eee;
+    color: rgb(31, 17, 17);
+    line-height: 1.5;
+}
+
+.footer-desc {
+    word-wrap: break-word;
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(31, 17, 17);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.ft-head {
+    color: rgb(31, 17, 17);;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.ft-main {
+    padding: 1 rem 2 rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ft-main-item {
+    padding: 1rem;
+    min-width: 12rem ;
+}
+
+/* end pat css*/
+
+/* evans css */
+
+/* ===== Customer Review Section ===== */
+
+
+
+#review{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+#review > h2{
+    position: absolute;
+    top: 25px;
+    
+}
+
+.customer{
+    padding:20px;
+    margin: 20px;
+    text-align: center;
+    border-style: inset;
+    background-color: lightblue;
+}
+
+.customer:hover {
+    border-style: outset;
+}
+
+.customer > img{
+    width: 100px;
+    border-radius: 100%;
+}
+
+/* end */
