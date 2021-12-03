@@ -73,8 +73,8 @@ header {
 .header-content {
   display: flex;
   position: absolute;
-  top: 200px;
-  left: 200px;
+  top: 25%;
+  left: 15%;
   align-items: flex-start;
 }
 .left-side {
@@ -98,30 +98,38 @@ header {
 }
 /* josh section style  */
 
-
 /* utility classes */
 
 .flex-column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .img-container {
-    width: 100%;
-    padding: 1em;
+  width: 100vw;
+  padding: 1em;
 }
 
 .flex-row {
-    display: flex;
+  display: flex;
 }
 
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.center-text {
+  text-align: center;
+  padding: 0.5em;
+}
+
+
+.black-txt {
+  color: #000;
+}
 .center-text{
   text-align: center;
   padding: 0.5em;
@@ -132,65 +140,59 @@ header {
 }
 
 
-
-
 /* contact page classes  */
 
 .input-pad {
-    padding: 0.5em;
+  padding: 0.5em;
 }
 
-
-
 /* end of josh style section  */
-
-
 
 /* pat css*/
 
 footer {
-    box-sizing: border-box;
-    margin: 0; 
-    padding: 0;
-    background-color: #eee;
-    color: rgb(31, 17, 17);
-    line-height: 1.5;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+  color: rgb(31, 17, 17);
+  line-height: 1.5;
 }
 
 .footer-desc {
-    word-wrap: break-word;
-    width: 200px;
+  word-wrap: break-word;
+  width: 200px;
 }
 
 ul {
-    list-style: none;
-    padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 footer a {
-    text-decoration: none;
-    color: rgb(31, 17, 17);
+  text-decoration: none;
+  color: rgb(31, 17, 17);
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .ft-head {
-    color: rgb(31, 17, 17);;
-    font-size: 1.5rem;
-    padding-bottom: 0.5rem;
+  color: rgb(31, 17, 17);
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .ft-main {
-    padding: 1 rem 2 rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  padding: 1 rem 2 rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .ft-main-item {
-    padding: 1rem;
-    min-width: 12rem ;
+  padding: 1rem;
+  min-width: 12rem;
 }
 
 /* end pat css*/
@@ -199,12 +201,10 @@ a:hover {
 
 /* ===== Customer Review Section ===== */
 
-
-
-#review{
-    display: flex;
-    justify-content: space-around;
-    padding: 100px;
+#review {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
 }
 
 /* #review > h2{
@@ -213,21 +213,50 @@ a:hover {
     
 } */
 
-.customer{
-    padding:20px;
-    margin: 20px;
-    text-align: center;
-    border-style: inset;
-    background-color: lightblue;
+.customer {
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border-style: inset;
+  background-color: lightblue;
 }
 
 .customer:hover {
-    border-style: outset;
+  border-style: outset;
 }
 
-.customer > img{
-    width: 100px;
-    border-radius: 100%;
+.customer > img {
+  width: 100px;
+  border-radius: 100%;
 }
 
 /* end */
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 75%;
+  background-color: orange;
+  color: white;
+  padding: 15px 0;
+  margin: 40px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  animation: moveInTop 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards;
+}
+
+input[type="submit"]:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
