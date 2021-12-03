@@ -122,6 +122,17 @@ header {
     align-items: center;
 }
 
+.center-text{
+  text-align: center;
+  padding: 0.5em;
+}
+
+.black-txt {
+  color: #000;
+}
+
+
+
 
 /* contact page classes  */
 
@@ -196,11 +207,11 @@ a:hover {
     padding: 100px;
 }
 
-#review > h2{
+/* #review > h2{
     position: absolute;
     top: 25px;
     
-}
+} */
 
 .customer{
     padding:20px;
