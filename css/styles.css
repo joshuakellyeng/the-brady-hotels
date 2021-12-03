@@ -126,9 +126,19 @@ header {
   padding: 0.5em;
 }
 
+
 .black-txt {
   color: #000;
 }
+.center-text{
+  text-align: center;
+  padding: 0.5em;
+}
+
+.black-txt {
+  color: #000;
+}
+
 
 /* contact page classes  */
 
