@@ -26,19 +26,19 @@ header {
   align-items: center;
   padding: 25px 95px;
 }
-ul li {
+.nav-menu-list li {
   list-style: none;
   display: inline;
   padding: 10px 20px;
 }
 
-ul li a {
+.nav-menu-list li a {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
 }
 
-ul li a:hover {
+.nav-menu-list li a:hover {
   color: orange;
 }
 
