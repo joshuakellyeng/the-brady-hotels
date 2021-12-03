@@ -59,9 +59,15 @@ ul li a:hover {
 }
 
 .book-form {
-  height: 400px;
+  height: 300px;
   width: 300px;
   background-color: white;
+}
+.book-block {
+  height: 10%;
+  width: 100%;
+  background-color: #adb5bd;
+  text-align: center;
 }
 
 .header-content {
